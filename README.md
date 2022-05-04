@@ -29,9 +29,22 @@ conda create --name mltutorial python=3.9
 conda activate mltutorial
 conda install jupyter
 conda install h5py
+conda install scikit-learn
+pip install tensorflow
+conda install pandas
 ```
 
-In a new shell start a jupyter notebook with command `jupyter notebook`.
+nb, if you have a GPU available in order to use it you must install `tensorflow-gpu` instead of `tensorflow`.
+
+
+## Run notebooks
+
+```
+git clone https://github.com/jngadiub/MLtutorial.git
+cd MLtutorial
+```
+
+In a new shell start a jupyter notebook with command `jupyter notebook`. The browser will automatically open the page where you can navigate the folders and files inside the `MLtutorial` folder.
 
 
 
