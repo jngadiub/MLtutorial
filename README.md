@@ -48,6 +48,18 @@ conda activate mltutorial
 
 nb, if you have a GPU available in order to use it you must install `tensorflow-gpu` instead of `tensorflow`.
 
+## Download the data
+
+Assuming you have already cloned the repo, let's download the datasets in advance so that we avoid a bandwidth bottleneck:
+
+```
+cd MLtutorial
+curl https://cernbox.cern.ch/index.php/s/xmTytsMPvCEA6Ar/download -o Data-MLtutorial.tar.gz
+tar -xvzf Data-MLtutorial.tar.gz 
+ls Data-MLtutorial/JetDataset/
+rm Data-MLtutorial.tar.gz 
+```
+
 ## Run notebooks
 
 ```
