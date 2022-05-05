@@ -32,6 +32,7 @@ conda install h5py
 conda install scikit-learn
 pip install tensorflow
 conda install pandas
+conda install pytorch
 ```
 
 nb, if you have a GPU available in order to use it you must install `tensorflow-gpu` instead of `tensorflow`.
