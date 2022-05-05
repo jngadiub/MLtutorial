@@ -20,6 +20,15 @@ This will change your `.bashrc` or `.bash_profile` file in your home directory t
 
 To check that this step went fine open a new shell and type `which conda` which should point you to the installed binary file. You can now close the old shell.
 
+Now you can install the ML libraries prepared for you as:
+
+```
+git clone https://github.com/jngadiub/MLtutorial.git
+cd MLtutorial
+conda env create -f mltutorial.yml
+conda activate mltutorial
+```
+
 ### How to create environment from scratch
 
 If you have followed the instructions above you will not need to follow these steps but for completeness here are the instructions to build the environment from scratch after you have download and installed conda as above:
@@ -33,10 +42,11 @@ conda install scikit-learn
 pip install tensorflow
 conda install pandas
 conda install pytorch
+conda env export > mltutorial.yml
+conda activate mltutorial
 ```
 
 nb, if you have a GPU available in order to use it you must install `tensorflow-gpu` instead of `tensorflow`.
-
 
 ## Run notebooks
 
