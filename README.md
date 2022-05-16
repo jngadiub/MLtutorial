@@ -1,16 +1,21 @@
 # MLtutorial
 
+Modified from [M. Pierini's tutorial](https://github.com/pierinim/tutorials/tree/master/GGI_Jan2021) for the INFN School of Statistics 2022.
+
+The notebooks can be easily run in Colab following instructions in these slides. Alternatively, one can run locally on their laptop using the instructions below.
+
 ## Prepare ML environment
 
 ```
-wget https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh
-bash Miniconda3-latest-MacOSX-x86_64.sh 
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+bash Miniconda3-latest-Linux-x86_64.sh
 ```
 
-nb, if you work on MacOS you need to change the first command above to:
+nb, the command above is for Linux but you can find in the anaconda repo the appropriate distribution for your OS. For example, for MacOS:
 
 ```
 curl https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh -o Miniconda3-latest-MacOSX-x86_64.sh
+bash Miniconda3-latest-MacOSX-x86_64.sh
 ```
 
 Answer `yes` to first question to accept license terms.
