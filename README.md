@@ -2,7 +2,7 @@
 
 Modified from [M. Pierini's tutorial](https://github.com/pierinim/tutorials/tree/master/GGI_Jan2021) for the INFN School of Statistics 2022.
 
-The notebooks can be easily run in Colab following instructions in these slides. Alternatively, one can run locally on their laptop using the instructions below.
+The notebooks can be easily run in Colab following instructions in [these slides](https://github.com/jngadiub/MLtutorial/blob/master/Slides/Tutorial_Colab.pdf). Alternatively, one can run locally on their laptop following the instructions below.
 
 ## Prepare ML environment
 
