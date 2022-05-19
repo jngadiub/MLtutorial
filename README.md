@@ -46,6 +46,7 @@ conda install h5py
 conda install scikit-learn
 pip install tensorflow
 conda install pandas
+conda install matplotlib
 conda install pytorch
 conda env export > mltutorial.yml
 conda activate mltutorial
